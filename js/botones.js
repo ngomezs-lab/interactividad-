@@ -1,8 +1,11 @@
+let title = document.querySelector("h1");
 let boton1 = document.getElementById("btn-1");
 let boton2 = document.getElementById("btn-2");
 let boton3 = document.getElementById("btn-3");
 
 boton1.addEventListener("click", function(){
+    title.innerText = "Boton 1";
+    bgColor("black");
     console.log("Boton 1");
 });
 
